@@ -1,7 +1,7 @@
 {
-  "name": "dev-template-webpack",
+  "name": "threejs-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "learn to use threejs",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js",
@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0"
+    "babel-preset-env": "^1.7.0",
+    "three": "^0.99.0"
   }
 }

@@ -1,10 +1,9 @@
 import './index.css';
+import demo1 from './demo1';
 
 window.onload = function() {
-    const container = document.createElement('div');
-    container.setAttribute('id', 'mainContainer');
-    document.body.appendChild(container);
-    const a = { a: 1, b: 2 };
-    const b = { ...a };
-    console.log(b)
+    const winWidth = document.documentElement.clientWidth;
+    const winHeight = document.documentElement.clientHeight;
+
+    demo1(winWidth, winHeight, document.body);
 };

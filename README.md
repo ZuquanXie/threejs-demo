@@ -1,5 +1,6 @@
-<h2 align="center">Template with webpack</h2>
+<h2 align="center">Demos of threejs</h2>
 
+学习使用threejs
 使用webpack作为构建工具
 
 <h3 align="left">开发</h3>
