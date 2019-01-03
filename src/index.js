@@ -1,9 +1,9 @@
 import './index.css';
-import demo1 from './demo1';
+import textureCanvas from './texture-canvas';
 
 window.onload = function() {
-    const winWidth = document.documentElement.clientWidth;
-    const winHeight = document.documentElement.clientHeight;
+    const winWidth = window.innerWidth;
+    const winHeight = window.innerHeight;
 
-    demo1(winWidth, winHeight, document.body);
+    textureCanvas(winWidth, winHeight, document.body);
 };
